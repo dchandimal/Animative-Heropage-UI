@@ -1,6 +1,7 @@
 import "./App.css";
 import BgAnimation from "./components/BgAnimation";
 import BottomGrid from "./components/BottomGrid";
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <BgAnimation />
       <Navbar />
       <BottomGrid />
+      <Hero />
     </div>
   );
 }
